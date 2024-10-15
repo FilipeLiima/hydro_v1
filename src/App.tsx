@@ -1,4 +1,3 @@
-import "./App.css";
 import { Button } from "@/components/ui/button";
 import {
   Droplet,
@@ -14,7 +13,7 @@ import {
 function App() {
   return (
     <>
-      <div className="bg-black w-full text-white">
+      <div className="bg-black text-white min-h-screen m-0 p-0">
         <div className="flex justify-between items-center p-4 w-full">
           <h1 className="text-2xl font-bold">HYDROS v1</h1>
           <Button className="bg-blue-500 text-white px-4 py-2 rounded-md">
@@ -40,13 +39,13 @@ function App() {
           se diferencia do cenário tradicional
         </h1>
 
-        <h4 className="mt-2 text-center w-full text-gray-400">
+        <h4 className="mt-2 text-center text-gray-400">
           Confira alguns exemplos de soluções criadas para melhorar a
           experiência do usuário
         </h4>
 
-        <div className="flex flex-wrap justify-between w-full p-4">
-          <div className="flex flex-col items-center mx-10">
+        <div className="flex flex-wrap p-4 justify-center items-center">
+          <div className="flex flex-col items-center mx-2">
             <Droplet className="w-10 h-10 mb-2 text-gray-400" />
             <span>ÁGUA FRIA</span>
           </div>
@@ -75,7 +74,7 @@ function App() {
             <span>CLIMATIZAÇÃO</span>
           </div>
           <div className="flex flex-col items-center mx-4">
-            <FireExtinguisher className="w-10 h-10 mb-2 text-gray-400" />
+            <FireExtinguisher className="w-10 h-10 mb-2 text-white" />
             <span>INCÊNDIO</span>
           </div>
         </div>
