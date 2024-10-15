@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import {
   Droplet,
   Droplets,
@@ -74,14 +75,14 @@ function App() {
             <span>CLIMATIZAÇÃO</span>
           </div>
           <div className="flex flex-col items-center mx-4">
-            <FireExtinguisher className="w-10 h-10 mb-2 text-white" />
+            <FireExtinguisher className="w-10 h-10 mb-2 text-gray-400" />
             <span>INCÊNDIO</span>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between mt-8 px-4">
-          <div className="flex-1 mb-4 md:mb-0 md:mr-4">
-            <h2 className="text-xl font-semibold">CASOS DE USO</h2>
+          <Card className="bg-black flex-1 mb-4 md:mb-0 md:mr-4 p-4">
+            <h2 className="text-white text-xl font-semibold">CASOS DE USO</h2>
             <h4 className="mt-2 text-gray-400">
               O sistema de dimensionamento de instalações prediais é uma
               ferramenta projetada para facilitar o planejamento e a execução de
@@ -90,20 +91,20 @@ function App() {
               sejam dimensionadas de forma eficiente e segura.
             </h4>
 
-            <h2 className="text-xl font-semibold">ARQUITETURA</h2>
+            <h2 className="text-xl font-semibold mt-4">ARQUITETURA</h2>
             <h4 className="mt-2 text-gray-400">
               PYTHON - TYPESCRIPT - ML / IA
             </h4>
-          </div>
+          </Card>
 
-          <div className="flex items-start md:w-1/2">
+          <Card className="bg-black flex items-start md:w-1/2 p-4">
             <div className="flex-1">
-              <h2 className="text-xl font-semibold">
+              <h2 className="text-white text-xl font-semibold">
                 DADOS ANALISADOS EM TEMPO REAL COM AUXÍLIO DE IA
               </h2>
               <h4 className="mt-2 text-gray-400">
                 Dimensionamento inteligente para instalações prediais eficientes
-                e seguras
+                e seguras.
               </h4>
             </div>
             <img
@@ -111,9 +112,8 @@ function App() {
               alt="IA"
               className="mt-4 w-100 h-auto"
             />
-          </div>
+          </Card>
         </div>
-
         <div className="w-full text-center mt-4">
           <h4>Hydros v1 © 2024 All rights reserved.</h4>
         </div>
