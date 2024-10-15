@@ -1,6 +1,6 @@
 <h1 align="center">HYDROS v1</h1>
 
-<h4 align="center">Sistema de dimensionamento de instalações prediais</h4>
+<h4 align="center">SISTEMA DE DIMENSIONAMENTO DE INSTALAÇÕES PREDIAIS</h4>
 
 <p align="center">
   <img src="logo.png" alt="alt text" width="400">
