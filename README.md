@@ -3,7 +3,7 @@
 <h4 align="center">Sistema de dimensionamento de instalações prediais</h4>
 
 <p align="center">
-  <img src="" alt="alt text" width="400">
+  <img src="logo.png" alt="alt text" width="400">
 </p>
 
 
