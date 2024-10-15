@@ -13,9 +13,9 @@ garantindo que todas as infraestruturas necessárias, como hidráulica, esgoto, 
 
 ## NBRs
 
-| NBR        | Go to                                                                                                                  |                                  
-| 5626 -1998        | [Check](https://ecivilufes.wordpress.com/wp-content/uploads/2013/06/nbr-05626-1998-instalac3a7c3a3o-predial-de-c3a1gua-fria.pdf)                                       
-
+| NBR        | Acesse                                                                                                                  |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 5626 - 1998        | [Check](https://ecivilufes.wordpress.com/wp-content/uploads/2013/06/nbr-05626-1998-instalac3a7c3a3o-predial-de-c3a1gua-fria.pdf)                                       |
 
 ## Technology:
 
