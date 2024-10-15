@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+<h1 align="center">HYDROS v1</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4 align="center">Sistema de dimensionamento de instalações prediais</h4>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="" alt="alt text" width="400">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+**Sobre o hydros**: O sistema de dimensionamento de instalações prediais é uma ferramenta projetada para facilitar o planejamento e a execução de projetos de edificações, 
+garantindo que todas as infraestruturas necessárias, como hidráulica, esgoto, gás, incêndio e climatização, sejam dimensionadas de forma eficiente e segura.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## NBRs
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+| NBR        | Go to                                                                                                                  |                                  
+| 5626 -1998        | [Check](https://ecivilufes.wordpress.com/wp-content/uploads/2013/06/nbr-05626-1998-instalac3a7c3a3o-predial-de-c3a1gua-fria.pdf)                                       
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Technology:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Linguagens de programação 
+  - Python
+  - TypeScript
+- Frontend
+  - React
+  - Shadcn-UI
+  - Vite
+  - Lucide icons
+- Ferramentas
+  - Generative AI - OpenAI
+- Deploy
+  - Vercel
+
+## Atenção: Este sistema ainda está em fase de desenvolvimento. Os cálculos estão sendo continuamente aprimorados e não devem ser utilizados para situações reais. Utilize com cautela.
