@@ -79,8 +79,8 @@ function App() {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-between w-full mt-8">
-          <div className="flex-1 mr-4">
+        <div className="flex flex-col md:flex-row justify-between mt-8 px-4">
+          <div className="flex-1 mb-4 md:mb-0 md:mr-4">
             <h2 className="text-xl font-semibold">CASOS DE USO</h2>
             <h4 className="mt-2 text-gray-400">
               O sistema de dimensionamento de instalações prediais é uma
@@ -96,8 +96,8 @@ function App() {
             </h4>
           </div>
 
-          <div className="flex items-start">
-            <div className="flex-1 ml-4">
+          <div className="flex items-start md:w-1/2">
+            <div className="flex-1">
               <h2 className="text-xl font-semibold">
                 DADOS ANALISADOS EM TEMPO REAL COM AUXÍLIO DE IA
               </h2>
@@ -109,7 +109,7 @@ function App() {
             <img
               src="./src/assets/IA.svg"
               alt="IA"
-              className="mt-4 w-100 h-auto ml-4"
+              className="mt-4 w-100 h-auto"
             />
           </div>
         </div>
