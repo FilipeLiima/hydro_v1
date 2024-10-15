@@ -32,4 +32,4 @@ garantindo que todas as infraestruturas necessárias, como hidráulica, esgoto, 
 - Deploy
   - Vercel
 
-## Atenção: Este sistema ainda está em fase de desenvolvimento. Os cálculos estão sendo continuamente aprimorados e não devem ser utilizados para situações reais. Utilize com cautela.
+## Atenção: Este sistema ainda está em fase de desenvolvimento. Os cálculos estão sendo continuamente aprimorados e não devem ser utilizados para situações reais!
